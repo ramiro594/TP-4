@@ -7,7 +7,7 @@ export function obtenerSuperheroePorId(id) {
     return superheroes.find(hero => hero.id === id)
 }
 
-export function buscarSuperheroePorAtributo(atributo, valor) {
+export function buscarSuperheroesPorAtributo(atributo, valor) {
     const superheroes = repository.obtenerTodos()
     return superheroes.filter(hero => String(hero[atributo]).toLowerCase().includes(valor.toLowerCase()))
 }
