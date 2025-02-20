@@ -12,7 +12,7 @@ export function obtenerSuperheroePorIdController(req, res) {
     }
 }
 
-export function buscarSuperheroesPorAtributosController(req, res) {
+export function buscarSuperheroesPorAtributoController(req, res) {
     const { atributo, valor } = req.params
     const superheroes = buscarSuperheroesPorAtributos(atributo, valor)
 
