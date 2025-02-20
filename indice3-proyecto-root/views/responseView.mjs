@@ -3,5 +3,5 @@ export function renderizarSuperheroe(superheroe) {
 }
 
 export function renderizarListaSuperheroes(superheroes){
-    return JSON.stringify(superheroe, null, 2)
+    return JSON.stringify(superheroes, null, 2)
 }
